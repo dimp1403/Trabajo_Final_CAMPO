@@ -1,41 +1,42 @@
 ---
-title: Short Paper
-subtitle: A Short Subtitle
+title: "Diferencias en la composición de sustrato entre Dzilam de Bravo y El Cuyo de la península de Yucatán"
+subtitle: "A Short Subtitle"
 author:
-  - name: Alice Anonymous
-    email: alice@example.com
+  - name: Sebastián Medina
+    email: 319529818@enesmerida.unam.mx
     affiliations: 
-        - id: some-tech
-          name: Some Institute of Technology
-          department: Department Name
-          address: Street Address
-          city: City
-          state: State
-          postal-code: Postal Code
-    attributes:
-        corresponding: true
+      - id: some-tech
+        name: ENES UNAM unidad Mérida
+        department: Ecología de Campo VI
+        address: Tablaje Catastral N°6998, Carretera Mérida-Tetiz Km. 4.5
+        city: Ucú
+        state: Yucatán
+        postal-code: 97357
+    corresponding: true
     note: This is the first author footnote.
-  - name: Bob Security
-    email: bob@example.com
+  - name: David Sánchez
+    email: 420049609@enesmerida.unam.mx
     affiliations:
-        - id: another-u
-          name: Another University
-          department: Department Name
-          address: Street Address
-          city: City
-          state: State
-          postal-code: Postal Code
+      - id: another-u
+        name: ENES UNAM unidad Mérida
+        department: Ecología de Campo VI
+        address: Tablaje Catastral N°6998, Carretera Mérida-Tetiz Km. 4.5
+        city: Ucú
+        state: Yucatán
+        postal-code: 97357
     note: |
       Another author footnote, this is a very long footnote and it should be a really long footnote. But this footnote is not yet sufficiently long enough to make two lines of footnote text.
-  - name: Cat Memes
-    email: cat@example.com
+  - name: Diego Muñoz
+    email: 317137150@enesmerida.unam.mx
     affiliations:
-        - ref: another-u
-    note: Yet another author footnote.
-  - name: Derek Zoolander
-    email: derek@example.com
-    affilations:
-        - ref: some-tech
+      - id: some-tech
+        name: ENES UNAM unidad Mérida
+        department: Ecología de Campo VI
+        address: Tablaje Catastral N°6998, Carretera Mérida-Tetiz Km. 4.5
+        city: Ucú
+        state: Yucatán
+        postal-code: 97357
+    note: ""
 abstract: |
   This is the abstract. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum augue turpis, dictum non malesuada a, volutpat eget velit. Nam placerat turpis purus, eu tristique ex tincidunt et. Mauris sed augue eget turpis ultrices tincidunt. Sed et mi in leo porta egestas. Aliquam non laoreet velit. Nunc quis ex vitae eros aliquet auctor nec ac libero. Duis laoreet sapien eu mi luctus, in bibendum leo molestie. Sed hendrerit diam diam, ac dapibus nisl volutpat vitae. Aliquam bibendum varius libero, eu efficitur justo rutrum at. Sed at tempus elit.
 keywords: 
@@ -67,40 +68,93 @@ editor:
     wrap: 72
 ---
 
-Please make sure that your manuscript follows the guidelines in the
-Guide for Authors of the relevant journal. It is not necessary to
-typeset your manuscript in exactly the same way as an article, unless
-you are submitting to a camera-ready copy (CRC) journal.
+# Introducción
 
-For detailed instructions regarding the elsevier article class, see
-<https://www.elsevier.com/authors/policies-and-guidelines/latex-instructions>
+Las zonas costeras representan un foco de interés para la biodiversidad,
+pues son la base de intercambio de materia biótica y abiótica entre los
+ecosistemas terrestres y los marinos. Estás albergan una gran diversidad
+de especies en los ecosistemas que la conforman, específicamente uno de
+ellos son los pastos marinos. Los pastos marinos están constituidos
+principalmente por una comunidad vegetal bentónica [@herrera2019pastos]
+distribuidos a manera de parches estratificados. La península de Yucatán
+determinada por su estructura geológica, se caracteriza por tener una
+amplia distribución de pastos marinos. Esto es explicado por la poca
+profundidad que tienen sus costas, permitiendo niveles de irradiación
+óptimos en amplias regiones. Además de la composición calcárea de su
+sustrato que también favorece la fijación y colonización de las plantas
+macrofitas[@sanchez2007analisis]. Facilitando el crecimiento de una
+variada macroflora marina.
 
-# Bibliography styles
+Los pastos marinos cumplen con diferentes servicios ecosistémicos como,
+la captura de carbono, ser disipador de corrientes permitiendo la
+estructuración de las costas, así como, reducir las tasas de erosión
+costera [@herrera2019pastos] y también como proveedor de microhabitats
+para una gran diversidad de organismos invertebrados considerados cómo
+fauna bentónica. La fauna bentónica es toda aquella que se encuentra en
+el fondo del agua, clasificada en diferentes tamaños: microbentónica
+\<0.063 mm, meiobentónica 0.063--1.0 mm, macrobentónica \>1.0 mm y
+megabentónica \> 10.0 mm [@tagliapietra2010benthic]. Organismos como
+oligoquetos, poliquetos, molúscos, gasterópodos, bivalvos, crustáceos,
+son fauna que cumplen con ciertas funciones dentro de sus ecosistema,
+unas cumplen con el papel de ser organismos detritívoros, otros como
+filtradores de materia orgánica, y también están ligados dentro de la
+cadena trófica como alimento para especies de mayor
+tamaño[@tagliapietra2010benthic].
 
-Here are two sample references: @Feynman1963118 @Dirac1953888.
+Por consiguiente, estudiar la composición de las zonas costeras es una
+tarea importante a realizar, ya que, de esta manera podríamos inferir en
+la calidad de sustrato marino que se tiene y de la funciones ecológicas
+que pudiera proveer. Teniendo una mayor referencia del estado de
+conservación del sitio motivando a la caracterización y comparación de
+dos zonas costeras de la península de Yucatán.
 
-By default, natbib will be used with the `authoryear` style, set in
-`classoption` variable in YAML. You can sets extra options with
-`natbiboptions` variable in YAML header. Example
+El propósito de este trabajo es caracterizar la composición del sustrato
+submareal de Dzilam de Bravo y El Cuyo a 20, 40 y 60 metros de
+la línea de costa con el objetivo de comparar ambos sitios utilizando
+una metodología AGRRA.
 
-```         
-natbiboptions: longnamesfirst,angle,semicolon
-```
+# Metodología
 
-There are various more specific bibliography styles available at
-<https://support.stmdocs.in/wiki/index.php?title=Model-wise_bibliographic_style_files>.
-To use one of these, add it in the header using, for example,
-`biblio-style: model1-num-names`.
+## *Área de estudio*
 
-## Using CSL
+En este estudio contemplamos a Dzilam de Bravo y El Cuyo. El primero,
+situado en el norte de Yucatán entre los paralelos 21°19' y 21°32' N y
+los meridianos 88°35' y 88°58', limita al norte con el Golfo de México y
+está influenciado en su circulación oceánica por los vientos y  las
+corrientes provenientes del canal de Yucatán, principalmente 
+[@1834/36164]. Además, presenta una diversidad de fondos en la que se
+encuentran fondos arenosos, arenosos con conchuela, duros de lajas y
+piedras [@1834/36164]. Por su parte, El Cuyo se sitúa...
 
-If `cite-method` is set to `citeproc` in `elsevier_article()`, then
-pandoc is used for citations instead of `natbib`. In this case, the
-`csl` option is used to format the references. By default, this template
-will provide an appropriate style, but alternative `csl` files are
-available from <https://www.zotero.org/styles?q=elsevier>. These can be
-downloaded and stored locally, or the url can be used as in the example
-header.
+## *Descripción de métodos de campo*
+
+Empleando una versión modificada del protocolo AGRRA 2016-09-22 (Lang,
+2016) para sustratos distintos a corales, demarcamos tres líneas de
+muestreo paralelas a la playa que estuvieron separadas por 20 m entre
+ellas a partir de la línea de costa. Cada línea de muestreo contuvo tres
+transectos de 10 m separados por una distancia de 20 m entre ellos; cada
+transecto fue marcado cada 10 cm a través de una soga. Para la
+caracterización del sustrato, ocupamos una cámara Go Pro versión x para
+grabar un video por transecto desde el inicio hasta el final de la soga
+en el que se pudieran apreciar las marcas. Posteriormente, tomando en
+cuenta lo que yaciera por debajo de cada marca, identificamos el
+sustrato, o bien, las especies asociadas al mismo. Por otro lado, para
+la caracterización del macrobentos sumareal, ocupamos un cuadrante de 25
+x 25 cm que colocamos en los metros 1, 3, 5, 7 y 9 de cada transecto.
+Dentro de cada uno de estos, despeluzamos gentilmente el sustrato en
+búsqueda de animales bentónicos y registramos tal acción en un video de
+30 segundos como mínimo.
+
+## *Procesamiento de datos*
+
+Los datos fueron procesados en RStudio versión 4.3.1. Las frecuencias de
+presencia de cada tipo de sustrato por localidad fueron estandarizados
+obteniendo su raíz cuarta. Posteriormente se generó una matriz de
+disimilitud de Bray-Curtis con el paquete vegan (Oksanen et al., 2015).
+
+# Resultados
+
+# Discusión
 
 # Equations
 
