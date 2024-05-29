@@ -53,46 +53,6 @@
   \renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
 \fi
 
-\usepackage{color}
-\usepackage{fancyvrb}
-\newcommand{\VerbBar}{|}
-\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
-\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
-% Add ',fontsize=\small' for more characters per line
-\usepackage{framed}
-\definecolor{shadecolor}{RGB}{241,243,245}
-\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
-\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
-\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
-\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.40,0.45,0.13}{#1}}
-\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
-\newcommand{\BuiltInTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
-\newcommand{\CharTok}[1]{\textcolor[rgb]{0.13,0.47,0.30}{#1}}
-\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
-\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{\textit{#1}}}
-\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
-\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
-\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
-\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
-\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{\textit{#1}}}
-\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
-\newcommand{\ExtensionTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
-\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
-\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.28,0.35,0.67}{#1}}
-\newcommand{\ImportTok}[1]{\textcolor[rgb]{0.00,0.46,0.62}{#1}}
-\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
-\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
-\newcommand{\NormalTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
-\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
-\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
-\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
-\newcommand{\RegionMarkerTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
-\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
-\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.13,0.47,0.30}{#1}}
-\newcommand{\StringTok}[1]{\textcolor[rgb]{0.13,0.47,0.30}{#1}}
-\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.07,0.07,0.07}{#1}}
-\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.13,0.47,0.30}{#1}}
-\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{\textit{#1}}}
 
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
@@ -266,55 +226,59 @@ tempus elit.
     keyword2
 \end{keyword}
 \end{frontmatter}
-    \ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[breakable, frame hidden, boxrule=0pt, interior hidden, borderline west={3pt}{0pt}{shadecolor}, enhanced, sharp corners]}{\end{tcolorbox}}\fi
+    \ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[interior hidden, enhanced, frame hidden, boxrule=0pt, sharp corners, borderline west={3pt}{0pt}{shadecolor}, breakable]}{\end{tcolorbox}}\fi
 
 \hypertarget{introducciuxf3n}{%
 \section{Introducción}\label{introducciuxf3n}}
 
 Las zonas costeras representan un foco de interés para la biodiversidad,
 pues son la base de intercambio de materia biótica y abiótica entre los
-ecosistemas terrestres y los marinos. Estás albergan una gran diversidad
-de especies en los ecosistemas que la conforman, específicamente uno de
-ellos son los pastos marinos. Los pastos marinos están constituidos
-principalmente por una comunidad vegetal bentónica
-\citep{herrera2019pastos} distribuidos a manera de parches
-estratificados. La península de Yucatán determinada por su estructura
-geológica, se caracteriza por tener una amplia distribución de pastos
-marinos. Esto es explicado por la poca profundidad que tienen sus
-costas, permitiendo niveles de irradiación óptimos en amplias regiones.
-Además de la composición calcárea de su sustrato que también favorece la
-fijación y colonización de las plantas
-macrofitas\citep{sanchez2007analisis}. Facilitando el crecimiento de una
-variada macroflora marina.
+ecosistemas terrestres y los marinos. Estas albergan una gran diversidad
+de especies en los ecosistemas que la conforman, como los pastos
+marinos. Estos están constituidos, principalmente, por una comunidad
+vegetal bentónica\citep{herrera2019pastos} y se distribuyen~ a manera de
+parches estratificados. Para el caso de la península de Yucatán, se ha
+reportado una amplia distribución de pastos marinos \textbf{(agregar
+cita y agregar especies más dominantes en general)}. Tal fenómeno se ha
+explicado por la poca profundidad que tienen sus costas, lo cual permite
+niveles de irradiación óptimos para los mismos en~ regiones vastas.
+Además, Sánchez et al\citep{sanchez2007analisis} propone que la
+composición calcárea del sustrato favorece la fijación y colonización de
+las plantas macrófitas, lo que propicia el crecimiento de una variada
+macroflora marina.
 
 Los pastos marinos cumplen con diferentes servicios ecosistémicos como,
-la captura de carbono, ser disipador de corrientes permitiendo la
-estructuración de las costas, así como, reducir las tasas de erosión
-costera \citep{herrera2019pastos} y también como proveedor de
-microhabitats para una gran diversidad de organismos invertebrados
-considerados cómo fauna bentónica. La fauna bentónica es toda aquella
-que se encuentra en el fondo del agua, clasificada en diferentes
-tamaños: microbentónica \textless0.063 mm, meiobentónica 0.063--1.0 mm,
-macrobentónica \textgreater1.0 mm y megabentónica \textgreater{} 10.0 mm
-\citep{tagliapietra2010benthic}. Organismos como oligoquetos,
-poliquetos, molúscos, gasterópodos, bivalvos, crustáceos, son fauna que
-cumplen con ciertas funciones dentro de sus ecosistema, unas cumplen con
-el papel de ser organismos detritívoros, otros como filtradores de
-materia orgánica, y también están ligados dentro de la cadena trófica
-como alimento para especies de mayor
-tamaño\citep{tagliapietra2010benthic}.
+la captura de carbono, disipación de corrientes (lo que permite la
+estructuración de las costas), reducción de las tasas de erosión
+costera\citep{herrera2019pastos} y provisión de microhábitats para una
+gran diversidad de organismos invertebrados considerados cómo fauna
+bentónica. La fauna bentónica es toda aquella que se encuentra en el
+fondo del agua y ha sido clasificada en diferentes tamaños:
+microbentónica \textless0.063 mm, meiobentónica 0.063--1.0 mm,
+macrobentónica \textgreater1.0 mm y megabentónica \textgreater{} 10.0
+mm\citep{tagliapietra2010benthic}. Organismos como oligoquetos,
+poliquetos, moluscos, gasterópodos, bivalvos, crustáceos, etc., realizan
+funciones importantes dentro de~ su ecosistema.~ Algunos cumplen con el
+papel de ser organismos detritívoros, otros como filtradores de materia
+orgánica y demás. Asimismo, también están ligados a redes tróficas como
+alimento para especies de mayor tamaño\citep{tagliapietra2010benthic}.
 
 Por consiguiente, estudiar la composición de las zonas costeras es una
-tarea importante a realizar, ya que, de esta manera podríamos inferir en
-la calidad de sustrato marino que se tiene y de la funciones ecológicas
-que pudiera proveer. Teniendo una mayor referencia del estado de
-conservación del sitio motivando a la caracterización y comparación de
-dos zonas costeras de la península de Yucatán.
+tarea importante a realizar, ya que, de esta manera podríamos inferir la
+calidad de sustrato marino que se tiene y de las funciones ecológicas
+que pudiera provee\textbf{r}. Teniendo una mayor referencia del estado
+de conservación del sitio podrían evaluarse planes de manejo para
+regular las actividades antrópicas que se llevan a cabo en zonas
+costeras las cuales tengan implicaciones directas sobre las zonas
+submareales, como por ejemplo, la construcción de muelles, la pesca,
+actividades deportivas, entre otras.
 
 El propósito de este trabajo es caracterizar la composición del sustrato
-submareal de Dzilam de Bravo y El Cuyo a 20, 40 y 60 metros de
-la~línea~de~costa con el objetivo de comparar ambos sitios utilizando
-una metodología AGRRA.
+submareal y la composición de fauna megabentónica en dos localidades,
+Dzilam de Bravo y El Cuyo a 20, 40 y 60 metros de la línea de costa con
+el objetivo de comparar ambos sitios utilizando una metodología AGRRA.
+Así mismo, buscaremos explicar las variables que pudieran influenciar la
+heterogeneidad de los sitios estudiados.
 
 \hypertarget{metodologuxeda}{%
 \section{Metodología}\label{metodologuxeda}}
@@ -327,106 +291,159 @@ En este estudio contemplamos a Dzilam de Bravo y El Cuyo. El primero,
 situado en el norte de Yucatán entre los paralelos 21°19' y 21°32' N y
 los meridianos 88°35' y 88°58', limita al norte con el Golfo de México y
 está influenciado en su circulación oceánica por los vientos y~ las
-corrientes provenientes del canal de Yucatán, principalmente~
-\citep{1834/36164}. Además, presenta una diversidad de fondos en la que
-se encuentran fondos arenosos, arenosos con conchuela, duros de lajas y
-piedras \citep{1834/36164}. Por su parte, El Cuyo se sitúa\ldots{}
+corrientes provenientes del canal de Yucatán,
+principalmente\citep{1834/36164}. Además, presenta una diversidad de
+fondos en la que se encuentran fondos arenosos, arenosos con conchuela,
+duros de lajas y piedras\citep{1834/36164}. Por su parte, El Cuyo se
+sitúa en el paralelo 21°31' N y el meridiano 87°39', ubicado al noreste
+de la península\citep{cnarioCuyo}. La costa presenta una pendiente
+reducida con arenas combinadas de tamñaos medianos y pequeños, las
+corrientes llevan una dirección Oeste-Noroeste, con velocidad promedio
+entre 0.7 y 0.8 nudos, alcanzando velocidades máximas de hasta 3
+nudos\citep{cnarioCuyo}.
 
 \hypertarget{descripciuxf3n-de-muxe9todos-de-campo}{%
 \subsection{\texorpdfstring{\emph{Descripción de métodos de
 campo}}{Descripción de métodos de campo}}\label{descripciuxf3n-de-muxe9todos-de-campo}}
 
 Empleando una versión modificada del protocolo AGRRA 2016-09-22 (Lang,
-2016) para sustratos distintos a corales, demarcamos tres líneas de
-muestreo paralelas a la playa que estuvieron separadas por 20 m entre
-ellas a partir de la línea de costa. Cada línea de muestreo contuvo tres
-transectos de 10 m separados por una distancia de 20 m entre ellos; cada
-transecto fue marcado cada 10 cm a través de una soga. Para la
-caracterización del sustrato, ocupamos una cámara Go Pro versión x para
-grabar un video por transecto desde el inicio hasta el final de la soga
-en el que se pudieran apreciar las marcas. Posteriormente, tomando en
-cuenta lo que yaciera por debajo de cada marca, identificamos el
-sustrato, o bien, las especies asociadas al mismo. Por otro lado, para
-la caracterización del macrobentos sumareal, ocupamos un cuadrante de 25
-x 25 cm que colocamos en los metros 1, 3, 5, 7 y 9 de cada transecto.
-Dentro de cada uno de estos, despeluzamos gentilmente el sustrato en
-búsqueda de animales bentónicos y registramos tal acción en un video de
-30 segundos como mínimo.
+2016) para sustratos distintos a corales, demarcamos tres lineas de
+muestreo paralelas a la playa, teniendo una separación de 20 m entre
+cada una, dando una distancia total de 60 m a línea de costa. Cada línea
+de muestreo contuvo tres transectos de 10 m separados por una distancia
+de 20 m entre ellos; cada transecto fue marcado cada 10 cm a través de
+una soga. Para la caracterización del sustrato, ocupamos una cámara Go
+Pro versión 8 para grabar un video por transecto desde el inicio hasta
+el final de la soga en el que se pudieran apreciar las marcas.
+Posteriormente, tomamos en cuenta lo que yaciera cada 10 cm por debajo
+de las marcas, identificamos el sustrato, según la composición las
+especies vegetales asociadas al mismo. Por otro lado, para la
+caracterización del megabentos submareal, ocupamos un cuadrante de 25 x
+25 cm que colocamos en los metros 1, 3, 5, 7 y 9 de cada transecto y
+aplicado a cada una de las distancias 20, 40 y 60 m, respectivamente.
+Dentro de cada uno de estos, observamos detenidamente entre las
+macroalgas en búsqueda de animales bentónicos y registramos tal acción
+en un video de 30 segundos como mínimo.
 
 \hypertarget{procesamiento-de-datos}{%
 \subsection{\texorpdfstring{\emph{Procesamiento de
 datos}}{Procesamiento de datos}}\label{procesamiento-de-datos}}
 
-Los datos fueron procesados en RStudio versión 4.3.1. Las frecuencias de
-presencia de cada tipo de sustrato por localidad fueron estandarizados
-obteniendo su raíz cuarta. Posteriormente se generó una matriz de
-disimilitud de Bray-Curtis con el paquete vegan (Oksanen et al., 2015).
+Con los datos obtenidos mediante el protocolo de muestreo calculamos el
+porcentaje de cobertura de diferentes especies de plantas marinas y
+macroalgas para cada distancia de la costa. Posteriormente
+estandarizamos los porcentajes (raíz cuarta) utilizando RStudio (versión
+4.3.1). Despues se calculó una matriz de disimilitud de Bray-Curtis con
+el paquete vegan \textbf{(Oksanen et al., 2015)}, con la cual se realizó
+un análisis de escalamiento multidimensional (MDS) no métrico con la
+paqueteria MASS \textbf{(Venables, 2002)}.
 
 \hypertarget{resultados}{%
 \section{Resultados}\label{resultados}}
 
-\hypertarget{discusiuxf3n}{%
-\section{Discusión}\label{discusiuxf3n}}
-
-\hypertarget{equations}{%
-\section{Equations}\label{equations}}
-
-Here is an equation: \[ 
-  f_{X}(x) = \left(\frac{\alpha}{\beta}\right)
-  \left(\frac{x}{\beta}\right)^{\alpha-1}
-  e^{-\left(\frac{x}{\beta}\right)^{\alpha}}; 
-  \alpha,\beta,x > 0 .
-\]
-
-Inline equations work as well: \(\sum_{i = 2}^\infty\{\alpha_i^\beta\}\)
-
-\hypertarget{figures-and-tables}{%
-\section{Figures and tables}\label{figures-and-tables}}
-
-Fig.~\ref{fig-meaningless} is generated using an R chunk.
+Como se observa en la figura 1, en comparación con El Cuyo, en el cual
+sólo se registró arena, Dzilam de Bravo presenta una mayor diversidad de
+sustratos, los cuales parecen variar en su composición en función de la
+distancia a la línea de costa. En este sentido, la similitud entre los
+transectos parece agruparlos de forma diferenciada según las distancias
+respectivas. Por otro lado, también se aprecia que los transectos de las
+líneas de muestreo a 20 y 40 m son más similares entre sí que aquellos
+de la línea de muestreo a 60 m. Respecto a la profundidad del agua, ésta
+no fue muy disímil entre ambos sitios. En Dzilam de Bravo, registramos
+0.5 m, 1.4 m y 1.53 m de profundidad para 20 m, 40 m y 60 m de
+distancia, respectivamente, mientras que en El Cuyo registramos 0.7 m,
+1.2 m y 2 m de profundidad.~
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.5\textwidth,height=\textheight]{Reporte_Campo_files/figure-pdf/fig-meaningless-1.pdf}
+{\centering \includegraphics{Promedio_sustratos.JPG}
 
 }
 
-\caption{\label{fig-meaningless}A meaningless scatterplot}
+\caption{Cobertura de sustratos de Dzilam de Bravo (azul) y El Cuyo
+(naranja) A) Distancia de 20 m de la línea de costa. B) Distancia de 40
+m de la línea de costa. C) Distancia de 60 m de la línea de costa.}
 
 \end{figure}
 
-\hypertarget{tables-coming-from-r}{%
-\section{Tables coming from R}\label{tables-coming-from-r}}
+En torno a la diversidad de sustratos en Dzilam de Bravo (Figura 3),
+esta se vio representada por dos especies de pastos marinos
+(\emph{Thalassia testudinum y Syringodium filiforme}) y siete especies
+de macroalgas (\emph{Dictyota divaricata, Chaetomorpha linum, Halimeda
+monile, Caulerpa verticillata, Caulerpa prolifera, Caulerpa mexicana y
+Ulvaria oxysperma}). Ad marginem, si bien \emph{D. divaricata} no está
+asociada directamente al sustrato, pero hemos considerado su presencia
+no sólo gracias a su elevada cobertura en el sitio, sino también a que
+la misma no permitía distinguir los sustratos sobre los que reposaba.
+Ahora bien, respecto a la dominancia de tales sustratos en el sitio, se
+puede apreciar en la \textbf{figura 2} que el sustrato con mayor
+cobertura fue \emph{S. filiforme}, seguido por \emph{D. divaricata y C.
+prolifera}. No obstante, tal proporción difirió para cada línea de
+muestreo. De acuerdo con las \textbf{figuras 1.1, 1.2 y 1.3 (las cuales
+se encuentran en la sección de anexos)}, respectivamente, la franja a 20
+m estaba dominada por \emph{D. divaricata} seguida por \emph{C.
+prolifera}, la franja a 40 m por \emph{S. filiforme} casi por completo y
+aquella a 60 m por \emph{S. filiforme} seguida por \emph{T. testudinum}.
 
-Tables can also be generated using R chunks, as shown in
-Table~\ref{tbl-simple} example.
+Finalmente, respecto al megabentos en Dzilam de Bravo, la probabilidad
+de detección de bivalvos fue de 0.11 mientras aquella de gasterópodos
+fue de 0.22. Cabe destacar que sólo obtuvimos valores para estos grupos
+dado que no registramos otros taxones. Por su parte, no hubo registro de
+ningún organismo en El Cuyo.
 
-\begin{Shaded}
-\begin{Highlighting}[]
-\NormalTok{knitr}\SpecialCharTok{::}\FunctionTok{kable}\NormalTok{(}\FunctionTok{head}\NormalTok{(mtcars)[,}\DecValTok{1}\SpecialCharTok{:}\DecValTok{4}\NormalTok{])}
-\end{Highlighting}
-\end{Shaded}
+\hypertarget{discusiuxf3n}{%
+\section{Discusión}\label{discusiuxf3n}}
 
-\hypertarget{tbl-simple}{}
-\begin{longtable}[]{@{}lrrrr@{}}
-\caption{\label{tbl-simple}Caption centered above table}\tabularnewline
-\toprule\noalign{}
-& mpg & cyl & disp & hp \\
-\midrule\noalign{}
-\endfirsthead
-\toprule\noalign{}
-& mpg & cyl & disp & hp \\
-\midrule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
-Mazda RX4 & 21.0 & 6 & 160 & 110 \\
-Mazda RX4 Wag & 21.0 & 6 & 160 & 110 \\
-Datsun 710 & 22.8 & 4 & 108 & 93 \\
-Hornet 4 Drive & 21.4 & 6 & 258 & 110 \\
-Hornet Sportabout & 18.7 & 8 & 360 & 175 \\
-Valiant & 18.1 & 6 & 225 & 105 \\
-\end{longtable}
+Las diferencias en la composición del sustrato entre Dzilam de Bravo y
+El Cuyo son amplias, pues los resultados parecen reflejar tanto una
+mayor diversidad en las especies asociadas al sustrato como una mayor
+variación entre estas en función de la distancia a la línea de costa. En
+este marco, mientras que en Dzilam de Bravo se registraron dos especies
+de plantas marinas y siete especies de algas, en El Cuyo el único
+sustrato registrado fue arena. Inicialmente, parecería que nuestros
+resultados son contradictorios con la diversidad de macroalgas
+reportadas en El Cuyo por Aguilar-Trujillo, et
+al.\citep{aguilar2014variacion} o los pastos marinos identificados en el
+norte de la Península por Herrera-Silveira et al.~en el libro de
+Biodiversidad y Desarrollo humano de
+Yucatán\citep{garcia2010biodiversidad}. No obstante, es posible que las
+distancias que hemos considerado en el muestreo de El Cuyo no han sido
+suficientes para abarcar zonas submareales con sustratos distintos a la
+arena. Por tanto, a partir de nuestros resultados, no podemos concluir
+información más allá de los primeros 60 m a partir de la línea de costa,
+el Cuyo cuenta con arena como sustrato único mientras que en Dzilam de
+Bravo existe una diversidad de sustratos constituida por pastos marinos
+y macroalgas.
+
+Las causas para tal contraste entre ambos sitios pueden ser variadas.
+Debiéndose al establecimiento de la vegetación acuática, Calva-Benítez y
+Torres Alvarado\citep{calva2011carbono} refieren que tanto la cobertura
+como la distribución de ésta yacen determinadas por la salinidad, la
+luz, la temperatura, el tipo de sedimento, la fuerza del viento y la
+cantidad de materia orgánica disuelta y particulada. Por su parte,
+Robbins y Bell\citep{robbins2000dynamics} sugieren que la distribución
+de los pastos marinos también puede ser explicada por: características
+fisiológicas y de crecimiento, impactos del pastoreo, interacciones de
+competencia, la hidrodinámica del sitio, bioturbación, el tamaño de
+grano del sedimento y la profundidad del agua. Si bien nuestros
+resultados sugieren la última no representa una variable determinante
+para razonar las diferencias observadas, es recomendable medir más
+variables como las previas en aras de entender por qué en el Dzilam de
+Bravo sí existen pastos marinos en los primeros 60 m de la línea de
+costa mientras que en el Cuyo no.
+
+En base a lo anterior, la diversidad de sustratos en Dzilam de Bravo
+podría dar indicios de la etapa sucesional en la que se encuentran, al
+menos, los primeros 60 m de la zona submareal. Dada la alta cobertura
+\emph{S. filiforme}, una especie pionera y oportunista como lo refieren
+Álvarez-Sánchez et al.\citep{sanchez2021cobertura}, respecto a la de
+\emph{T. testudinum}, podríamos sugerir que la zona submareal en
+cuestión está en un proceso de sucesión temprana. La baja detección de
+organismos del macrobentos podría estar asociada a tal proceso. Por otro
+lado, nuestros resultados son concordantes con la
+literatura\citep{sanchez2021cobertura}, pues observamos una mayor
+cantidad de algas en los transectos con menor cobertura de fanerógamas
+marinas.
 
 
 \renewcommand\refname{References}
