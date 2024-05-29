@@ -1,6 +1,5 @@
 ---
 title: "Diferencias en la composición de sustrato entre Dzilam de Bravo y El Cuyo de la península de Yucatán"
-subtitle: "A Short Subtitle"
 author:
   - name: Sebastián Medina
     email: 319529818@enesmerida.unam.mx
@@ -13,7 +12,6 @@ author:
         state: Yucatán
         postal-code: 97357
     corresponding: true
-    note: This is the first author footnote.
   - name: David Sánchez
     email: 420049609@enesmerida.unam.mx
     affiliations:
@@ -24,8 +22,6 @@ author:
         city: Ucú
         state: Yucatán
         postal-code: 97357
-    note: |
-      Another author footnote, this is a very long footnote and it should be a really long footnote. But this footnote is not yet sufficiently long enough to make two lines of footnote text.
   - name: Diego Muñoz
     email: 317137150@enesmerida.unam.mx
     affiliations:
@@ -36,12 +32,13 @@ author:
         city: Ucú
         state: Yucatán
         postal-code: 97357
-    note: ""
 abstract: |
-  This is the abstract. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum augue turpis, dictum non malesuada a, volutpat eget velit. Nam placerat turpis purus, eu tristique ex tincidunt et. Mauris sed augue eget turpis ultrices tincidunt. Sed et mi in leo porta egestas. Aliquam non laoreet velit. Nunc quis ex vitae eros aliquet auctor nec ac libero. Duis laoreet sapien eu mi luctus, in bibendum leo molestie. Sed hendrerit diam diam, ac dapibus nisl volutpat vitae. Aliquam bibendum varius libero, eu efficitur justo rutrum at. Sed at tempus elit.
+  Los pastos marinos tienen una amplia distribución alrededor de la península de Yucatán y representan un pilar destacado para el sostenimiento de la fauna bentónica. No obstante, dicha distribución no es igual ni a lo largo de la costa ni mar adentro. A través de una versión modificada de la metodología AGRRA, caracterizamos y comparamos la composición de sustratos submareales entre dos localidades del norte de la península de Yucatán (Dzilam de Bravo y El Cuyo) a 20, 40 y 60 metros de la línea de costa. También exploramos la probabilidad de detección de la fauna macrobentónica en ambas localidades. Encontramos que, al menos en los primeros 60 metros de zona submareal, Dzilam de Bravo presenta una mayor diversidad de sustratos que El Cuyo y que estos varían en su composición en función de la distancia a la línea de costa. De los nueve sustratos registrados para Dzilam de Bravo, dos fueron especies de pastos marinos: *Thalassia testudinum* y *Syringodium filiforme*; creemos que la dominancia de la segunda indica procesos de sucesión ecológica temprana en la localidad. Por otro lado, la probabilidad de detección de fauna bentónica fue baja para Dzilam de Bravo (0.11 para bivalvos y 0.22 para gasterópodos) y nula para el Cuyo. Nuestros hallazgos secundan la heterogeneidad reportada en sustratos de pastos marinos a lo largo de la península de Yucatán.
 keywords: 
-  - keyword1
-  - keyword2
+  - Sustrato
+  - Megabentos
+  - Pastos marinos
+  - Zona submareal
 date: last-modified
 bibliography: bibliography.bib
 crossref:
@@ -59,10 +56,7 @@ format:
       model: 3p
       layout: twocolumn
       cite-style: authoryear
-      highlights:
-        - Frase 1
-        - Frase 2
-        - Frase 3
+      
 editor: 
   markdown: 
     wrap: 72
@@ -75,49 +69,45 @@ pues son la base de intercambio de materia biótica y abiótica entre los
 ecosistemas terrestres y los marinos. Estas albergan una gran diversidad
 de especies en los ecosistemas que la conforman, como los pastos
 marinos. Estos están constituidos, principalmente, por una comunidad
-vegetal bentónica[@herrera2019pastos] y se distribuyen a manera de
-parches estratificados. Para el caso de la península de Yucatán, se ha
-reportado una amplia distribución de pastos marinos **(agregar cita y
-agregar especies más dominantes en general)**. Tal fenómeno se ha
-explicado por la poca profundidad que tienen sus costas, lo cual permite
-niveles de irradiación óptimos para los mismos en  regiones vastas.
-Además, Sánchez et al[@sanchez2007analisis] propone que la composición
-calcárea del sustrato favorece la fijación y colonización de las plantas
-macrófitas, lo que propicia el crecimiento de una variada macroflora
-marina.
+vegetal bentónica [@herrera2019pastos] y se distribuyen a manera de
+parches estratificados.
+
+Para el caso de la península de Yucatán, se ha reportado una amplia
+distribución de especies de pastos marinos, como *Thalassia testudinum,
+Halodule wrightii*, *Syringodium filiforme* y *Ruppia mexicana,* por
+mencionar algunas, siendo esta última una especie éndemica de la región
+[@unknown]. Tal fenómeno se ha explicado por la poca profundidad que
+tienen sus costas, lo cual permite niveles de irradiación óptimos para
+los mismos en  regiones vastas. Además, Sánchez et al
+[@sanchez2007analisis] propone que la composición calcárea del sustrato
+favorece la fijación y colonización de las plantas macrófitas, lo que
+propicia el crecimiento de una variada macroflora marina.
 
 Los pastos marinos cumplen con diferentes servicios ecosistémicos como,
 la captura de carbono, disipación de corrientes (lo que permite la
-estructuración de las costas), reducción de las tasas de erosión
-costera[@herrera2019pastos] y provisión de microhábitats para una gran
+estructuración de las costas), reducción de las tasas de erosión costera
+[@herrera2019pastos] y provisión de microhábitats para una gran
 diversidad de organismos invertebrados considerados cómo fauna
 bentónica. La fauna bentónica es toda aquella que se encuentra en el
 fondo del agua y ha sido clasificada en diferentes tamaños:
 microbentónica \<0.063 mm, meiobentónica 0.063--1.0 mm, macrobentónica
-\>1.0 mm y megabentónica \> 10.0 mm[@tagliapietra2010benthic].
+\>1.0 mm y megabentónica \> 10.0 mm [@tagliapietra2010benthic].
 Organismos como oligoquetos, poliquetos, moluscos, gasterópodos,
 bivalvos, crustáceos, etc., realizan funciones importantes dentro de  su
 ecosistema.  Algunos cumplen con el papel de ser organismos
 detritívoros, otros como filtradores de materia orgánica y demás.
 Asimismo, también están ligados a redes tróficas como alimento para
-especies de mayor tamaño[@tagliapietra2010benthic].
+especies de mayor tamaño [@tagliapietra2010benthic].
 
-Por consiguiente, estudiar la composición de las zonas costeras es una
-tarea importante a realizar, ya que, de esta manera podríamos inferir la
-calidad de sustrato marino que se tiene y de las funciones ecológicas
-que pudiera provee**r**. Teniendo una mayor referencia del estado de
-conservación del sitio podrían evaluarse planes de manejo para regular
-las actividades antrópicas que se llevan a cabo en zonas costeras las
-cuales tengan implicaciones directas sobre las zonas submareales, como
-por ejemplo, la construcción de muelles, la pesca, actividades
-deportivas, entre otras.
-
-El propósito de este trabajo es caracterizar la composición del sustrato
-submareal y la composición de fauna megabentónica en dos localidades,
-Dzilam de Bravo y El Cuyo a 20 , 40 y 60 metros de la línea de costa con
-el objetivo de comparar ambos sitios utilizando una metodología AGRRA.
-Así mismo, buscaremos explicar las variables que pudieran influenciar la
-heterogeneidad de los sitios estudiados.
+Continuar estudiando la composición de las zonas bentónicas submareales
+es una tarea importante a realizar, ya que, de esta manera poder evaluar
+y comprender los procesos ecológicos que se desarrollan en esos
+ecosistemas en vistas de mejorar planes de manejo para la biodiversidad
+marina. Es en este contexto que el propósito de nuestro trabajo es
+caracterizar la composición del sustrato submareal y la composición de
+fauna megabentónica en dos localidades, Dzilam de Bravo y El Cuyo a 20 ,
+40 y 60 metros de la línea de costa. con el objetivo de comparar ambos
+sitios utilizando una metodología AGRRA.
 
 # Metodología
 
@@ -126,18 +116,23 @@ heterogeneidad de los sitios estudiados.
 En este estudio contemplamos a Dzilam de Bravo y El Cuyo. El primero,
 situado en el norte de Yucatán entre los paralelos 21°19' y 21°32' N y
 los meridianos 88°35' y 88°58', limita al norte con el Golfo de México y
-está influenciado en su circulación oceánica por los vientos y  las
-corrientes provenientes del canal de Yucatán,
-principalmente[@1834/36164]. Además, presenta una diversidad de fondos
-en la que se encuentran fondos arenosos, arenosos con conchuela, duros
-de lajas y piedras[@1834/36164]. Por su parte, El Cuyo se sitúa en el
-paralelo 21°31' N y el meridiano 87°39', ubicado al noreste de la
-península[@cnarioCuyo]. La costa presenta una pendiente reducida con
-arenas combinadas de tamñaos medianos y pequeños, las corrientes llevan
-una dirección Oeste-Noroeste, con velocidad promedio entre 0.7 y 0.8
-nudos, alcanzando velocidades máximas de hasta 3 nudos[@cnarioCuyo].
+está influenciado en su circulación oceánica por los vientos y las
+corrientes provenientes del canal de Yucatán, principalmente
+[@1834/36164]. Además, presenta una diversidad de fondos en la que se
+encuentran fondos arenosos, arenosos con conchuela, duros de lajas y
+piedras [@1834/36164]. Por su parte, El Cuyo se sitúa en el paralelo
+21°31' N y el meridiano 87°39', ubicado al noreste de la península
+[@cnarioCuyo]. La costa presenta una pendiente reducida con arenas
+combinadas de tamñaos medianos y pequeños, las corrientes llevan una
+dirección Oeste-Noroeste, con velocidad promedio entre 0.7 y 0.8 nudos,
+alcanzando velocidades máximas de hasta 3 nudos [@cnarioCuyo] (figura
+1).
 
 ## *Descripción de métodos de campo*
+
+![Mapa del área de estudio de Dzilam de bravo (figura superior
+izquierda) y El Cuyo (figura superior derecha) y los sitios de
+muestreo.](Mapa_dots3.jpg)
 
 Empleando una versión modificada del protocolo AGRRA 2016-09-22 (Lang,
 2016) para sustratos distintos a corales, demarcamos tres lineas de
@@ -165,51 +160,56 @@ porcentaje de cobertura de diferentes especies de plantas marinas y
 macroalgas para cada distancia de la costa. Posteriormente
 estandarizamos los porcentajes (raíz cuarta) utilizando RStudio (versión
 4.3.1). Despues se calculó una matriz de disimilitud de Bray-Curtis con
-el paquete vegan **(Oksanen et al., 2015)**, con la cual se realizó un
-análisis de escalamiento multidimensional (MDS) no métrico con la
-paqueteria MASS **(Venables, 2002)**.
+el paquete vegan [@manualR], con la cual se realizó un análisis de
+escalamiento multidimensional (MDS) no métrico con la paqueteria MASS
+[@BookR].
 
 # Resultados
 
 ![Composición del sustrato por distancia. Dzilam de Bravo (triángulo);
 El Cuyo (círculo).](MDS.JPG)
 
-Como se observa en la Figura 1, en comparación con El Cuyo, en el cual
-sólo se registró arena, Dzilam de Bravo presenta una mayor diversidad de
-sustratos, los cuales parecen variar en su composición en función de la
-distancia a la línea de costa. En este sentido, la similitud entre los
-transectos parece agruparlos de forma diferenciada según las distancias
-respectivas. Por otro lado, también se aprecia que los transectos de las
-líneas de muestreo a 20 y 40 m son más similares entre sí que aquellos
-de la línea de muestreo a 60 m. Respecto a la profundidad del agua, ésta
-no fue muy disímil entre ambos sitios. En Dzilam de Bravo, registramos
-0.5 m, 1.4 m y 1.53 m de profundidad para 20 m, 40 m y 60 m de
-distancia, respectivamente, mientras que en El Cuyo registramos 0.7 m,
-1.2 m y 2 m de profundidad. 
+Las variables consideradas fueron tipos de sustrato por localidad y por
+sitio, profundidad inicial por sitio y probabilidad de detección de
+fauna bentónica por localidad.
 
-![Cobertura de sustratos de Dzilam de Bravo (azul) y El Cuyo (naranja)
-A) Distancia de 20 m de la línea de costa. B) Distancia de 40 m de la
-línea de costa. C) Distancia de 60 m de la línea de
+Como se observa en la Figura 2, registramos una mayor diversidad de
+sustratos en Dzilam de Bravo que en EL Cuyo. Estos varían parecen variar
+en su composición en función de la distancia a la línea de costa. Se
+aprecia que los sitios de las líneas de muestreo a 20 y 40 m son más
+similares entre sí que aquellos del sitio 60 m. Respecto a la
+profundidad del agua, ésta no fue muy disímil entre ambos sitios. Dzilam
+de Bravo, contó con 0.5, 1.4 y 1.53 metros de profundidad para los
+sitios 20, 40 y 60 metros, respectivamente. Por su parte, en El Cuyo se
+registró 0.7 m, 1.2 m y 2 m de profundidad.
+
+![Promedio general de sustratos de Dzilam de Bravo (azul) y El Cuyo
+(rojo).](Promedio_sus_gen.jpg)
+
+![Cobertura de sustratos de Dzilam de Bravo (azul) y El Cuyo (rojo). A)
+Distancia de 20 m de la línea de costa; B) Distancia de 40 m de la línea
+de costa; C) Distancia de 60 m de la línea de
 costa.](Promedio_sustratos.JPG)
 
-En torno a la diversidad de sustratos en Dzilam de Bravo (Figura 3),
-esta se vio representada por dos especies de pastos marinos (*Thalassia
-testudinum y Syringodium filiforme*) y siete especies de macroalgas
-(*Dictyota divaricata, Chaetomorpha linum, Halimeda monile, Caulerpa
-verticillata, Caulerpa prolifera, Caulerpa mexicana y Ulvaria
-oxysperma*). Ad marginem, si bien *D. divaricata* no está asociada
-directamente al sustrato, pero hemos considerado su presencia no sólo
-gracias a su elevada cobertura en el sitio, sino también a que la misma
-no permitía distinguir los sustratos sobre los que reposaba. Ahora bien,
+En torno a la diversidad de sustratos por localidad ((figura 3), Dzilam
+de Bravo, estuvo representada por dos especies de pastos marinos
+(Thalassia testudinum y Syringodium filiforme) y siete especies de
+macroalgas (*Dictyota divaricata, Chaetomorpha linum, Halimeda monile,
+Caulerpa verticillata, Caulerpa prolifera, Caulerpa mexicana* y *Ulvaria
+oxysperma*), mientras que El Cuyo solo presentó arena. Cabe destacar
+pero hemos considerado *D. divaricata* (aún cuando la misma no está
+directamente asociada al sustrato) por su elevada cobertura. Ahora bien,
 respecto a la dominancia de tales sustratos en el sitio, se puede
-apreciar en la **figura 2** que el sustrato con mayor cobertura fue *S.
-filiforme*, seguido por *D. divaricata y C. prolifera*. No obstante, tal
-proporción difirió para cada línea de muestreo. De acuerdo con las
-**figuras 1.1, 1.2 y 1.3 (las cuales se encuentran en la sección de
-anexos)**, respectivamente, la franja a 20 m estaba dominada por *D.
-divaricata* seguida por *C. prolifera*, la franja a 40 m por *S.
-filiforme* casi por completo y aquella a 60 m por *S. filiforme* seguida
-por *T. testudinum*.
+apreciar en la figura 4 que el sustrato con mayor cobertura fue *S.
+filiforme*, seguido por *D.divaricata*. No obstante, tal proporción
+difirió por sitio. El sitio a 20 metros fue dominado por *D. divaricata*
+seguida por *C. prolifera*, el sitio a 40 metros por *S. filiforme* casi
+por completo y el sitio a 60 metros por *S. filiforme* seguida por *T.
+testudinum*.
+
+![Vegetación bentónica de Dzilam de Bravo. A) *Halimeda monile*; B)
+*Thalassia testudinum*; C) *Syringodium filifiorme*; D) *Chaetomorpha
+linum*; E) *Caulerpa prolifera.*](Especies_algas.JPG)
 
 Finalmente, respecto al megabentos en Dzilam de Bravo, la probabilidad
 de detección de bivalvos fue de 0.11 mientras aquella de gasterópodos
@@ -227,25 +227,25 @@ este marco, mientras que en Dzilam de Bravo se registraron dos especies
 de plantas marinas y siete especies de algas, en El Cuyo el único
 sustrato registrado fue arena. Inicialmente, parecería que nuestros
 resultados son contradictorios con la diversidad de macroalgas
-reportadas en El Cuyo por Aguilar-Trujillo, et
-al.[@aguilar2014variacion] o los pastos marinos identificados en el
-norte de la Península por Herrera-Silveira et al. en el libro de
-Biodiversidad y Desarrollo humano de Yucatán[@garcia2010biodiversidad].
-No obstante, es posible que las distancias que hemos considerado en el
-muestreo de El Cuyo no han sido suficientes para abarcar zonas
-submareales con sustratos distintos a la arena. Por tanto, a partir de
-nuestros resultados, no podemos concluir información más allá de los
+reportadas en El Cuyo por Aguilar-Trujillo, et al.
+[@aguilar2014variacion] o los pastos marinos identificados en el norte
+de la Península por Herrera-Silveira et al. en el libro de Biodiversidad
+y Desarrollo humano de Yucatán [@garcia2010biodiversidad]. No obstante,
+es posible que las distancias que hemos considerado en el muestreo de El
+Cuyo no hayan sido suficientes para abarcar zonas submareales con
+sustratos distintos a la arena. Por tanto, a partir de nuestros
+resultados, no podemos concluir información más allá de que en los
 primeros 60 m a partir de la línea de costa, el Cuyo cuenta con arena
 como sustrato único mientras que en Dzilam de Bravo existe una
 diversidad de sustratos constituida por pastos marinos y macroalgas.
 
 Las causas para tal contraste entre ambos sitios pueden ser variadas.
 Debiéndose al establecimiento de la vegetación acuática, Calva-Benítez y
-Torres Alvarado[@calva2011carbono] refieren que tanto la cobertura como
+Torres Alvarado [@calva2011carbono] refieren que tanto la cobertura como
 la distribución de ésta yacen determinadas por la salinidad, la luz, la
 temperatura, el tipo de sedimento, la fuerza del viento y la cantidad de
-materia orgánica disuelta y particulada. Por su parte, Robbins y
-Bell[@robbins2000dynamics] sugieren que la distribución de los pastos
+materia orgánica disuelta y particulada. Por su parte, Robbins y Bell
+[@robbins2000dynamics] sugieren que la distribución de los pastos
 marinos también puede ser explicada por: características fisiológicas y
 de crecimiento, impactos del pastoreo, interacciones de competencia, la
 hidrodinámica del sitio, bioturbación, el tamaño de grano del sedimento
@@ -253,19 +253,45 @@ y la profundidad del agua. Si bien nuestros resultados sugieren la
 última no representa una variable determinante para razonar las
 diferencias observadas, es recomendable medir más variables como las
 previas en aras de entender por qué en el Dzilam de Bravo sí existen
-pastos marinos en los primeros 60 m de la línea de costa mientras que en
-el Cuyo no.
+pastos marinos en los primeros 60 metros a partir de la línea de costa
+mientras que en el Cuyo no.
 
-En base a lo anterior, la diversidad de sustratos en Dzilam de Bravo
-podría dar indicios de la etapa sucesional en la que se encuentran, al
-menos, los primeros 60 m de la zona submareal. Dada la alta cobertura
-*S. filiforme*, una especie pionera y oportunista como lo refieren
-Álvarez-Sánchez et al.[@sanchez2021cobertura], respecto a la de *T.
-testudinum*, podríamos sugerir que la zona submareal en cuestión está en
+Con base base a lo anterior, la diversidad de sustratos en Dzilam de
+Bravo podría dar indicios de la etapa sucesional en la que se
+encuentran, al menos, los primeros 60 metros de la zona submareal. Dada
+la alta cobertura S. filiforme, una especie pionera y oportunista como
+lo refieren Álvarez-Sánchez et al. (2021), respecto a la de T.
+testudinum, podríamos sugerir que la zona submareal en cuestión está en
 un proceso de sucesión temprana. La baja detección de organismos del
 macrobentos podría estar asociada a tal proceso. Por otro lado, nuestros
-resultados son concordantes con la literatura[@sanchez2021cobertura],
-pues observamos una mayor cantidad de algas en los transectos con menor
-cobertura de fanerógamas marinas.
+resultados son concordantes con la literatura, pues observamos una mayor
+cantidad de algas en los sitios con menor cobertura de fanerógamas
+marinas [@sanchez2021cobertura] y detectamos diferencias en la
+diversidad de sustratos entre las localidades estudiadas
+[@garcia2010biodiversidad].
+
+\
+Sustratos como los pastos marinos son fundamentales para el
+sostenimiento de la fauna bentónica y la provisión de servicios
+ecosistémicos variados. Bajo una modificación de la metodología AGRRA,
+caracterizamos y comparamos la composición de sustratos en dos
+localidades del norte de la península de Yucatán y exploramos la
+probabilidad de detección de la fauna megabentónica. Encontramos que  al
+menos en los primeros 60 metros de zona submareal, Dzilam de Bravo
+presenta una mayor diversidad de sustratos que El Cuyo y que estos
+varían en su composición en función de la distancia a la línea de costa.
+Asimismo, sugerimos que la dominancia de S. filiforme en Dzilam de Bravo
+subyace un proceso temprano de sucesión ecológica.  Por otro lado, la
+probabilidad de detección de fauna bentónica fue baja para Dzilam de
+Bravo (probablemente debido a la supuesta etapa de sucesión) y nula para
+el Cuyo. Nuestros hallazgos secundan la heterogeneidad reportada en
+sustratos de pastos marinos a lo largo de la península de Yucatán y
+coinciden con la literatura hasta la fecha.
+
+# Agradecimientos
+
+Agradecemos al Dr. Edlin Guerra y la Dra. María del refugio por su
+enseñanza, paciencia, alimentación y cuidadosa planeación del curso y
+por el financiamiento de la salida de campo. 
 
 # References {.unnumbered}
